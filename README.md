@@ -42,6 +42,12 @@ Feel free to connect with us on LinkedIn and mention any specific questions or i
 
 The introduction section should provide a brief overview of the main features, capabilities, and use cases of the package. Explain the purpose of the package and what it aims to achieve.
 
+Eflatun is a Python machine learning library that contains a comprehensive set of tools and algorithms for implementing and testing machine learning models. The package includes supervised and unsupervised learning algorithms such as linear regression, logistic regression, decision trees, random forests, and support vector machines (SVMs). It also includes clustering algorithms such as k-means and hierarchical clustering, and dimensionality reduction techniques such as principal component analysis (PCA) and independent component analysis (ICA).
+
+The library is capable of data preprocessing, feature engineering, and model evaluation. It also supports parallel computing, which enables users to take advantage of multi-core CPUs for faster processing of large datasets.
+
+The library can be used for a variety of domains such as finance, healthcare, marketing, and research purposes. Its features and capabilities make it a valuable tool for anyone interested in machine learning and data science. The use cases of Eflatun include predictive modeling, anomaly detection, image and speech recognition, natural language processing (NLP), and recommender systems.
+
 ## Dependencies
 
 In the Dependencies section, list and explain all external dependencies required for the package to work, including specific versions if necessary. Add instructions for installing these dependencies.
@@ -96,15 +102,31 @@ The `best_object_selector` is a ROS node responsible for selecting the best obje
 
 ### vehicle_status
 
-In this section, provide a detailed description of the `vehicle_status` node, explaining its purpose and functionality.
+This is a Python script for a simple GUI that subscribes to multiple MAVROS topics using ROS2 and displays the received data in a table.
+
+The `MavrosSubscriber` class is a ROS2 node that subscribes to the provided topics using the `create_subscription` method from the `Node` class. When a message is received on a subscribed topic, the corresponding callback function is called to update the GUI.
+
+The `MavrosGUI` class is a PyQt5 widget that displays a table with the subscribed topics and their values. The `update_table` method updates the table with the received message.                     
 
 #### Published Topics
 
-List and describe the topics published by the `vehicle_status` node.
+The `vehicle_status` node doesn't publish to any topics.
 
 #### Subscribed Topics
 
-List and describe the topics to which the `vehicle_status` node subscribes.
+- `/diagnostics` (DiagnosticArray): provides diagnostic information about the system.
+- `/mavros/battery` (BatteryState): provides information about the battery level.
+- `/mavros/mavros/data` (Imu): provides data from the IMU (Inertial Measurement Unit).
+- `/mavros/mavros/data_raw` (Imu): provides raw data from the IMU.
+- `/mavros/mavros/diff_pressure` (FluidPressure): provides differential pressure data.
+- `/mavros/mavros/in` (RCIn): provides information about the input channels.
+- `/mavros/mavros/mag` (MagneticField): provides magnetometer data.
+- `/mavros/mavros/out` (RCOut): provides information about the output channels.
+- `/mavros/mavros/output` (NavControllerOutput): provides information about the navigation controller output.
+- `/mavros/mavros/raw/fix` (NavSatFix): provides raw GPS data.
+- `/mavros/mavros/raw/gps_vel` (TwistStamped): provides raw GPS velocity data.
+- `/mavros/mavros/raw/satellites` (UInt32): provides information about GPS satellites.
+
 
 ## Parameters
 
