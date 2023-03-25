@@ -270,3 +270,5 @@ In this project, we utilized the following hardware components to achieve object
   - LIDAR: For real-time distance measurements, allowing the airplane to maintain a safe distance from obstacles and terrain.
 
 Make sure you have compatible hardware components when using this project in your own fixed wing airplane setup. Detailed specifications and connection diagrams can be found in the documentation.
+
+## Sources
