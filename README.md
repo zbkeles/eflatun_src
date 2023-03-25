@@ -37,6 +37,7 @@ Feel free to connect with us on LinkedIn and mention any specific questions or i
 10. [Contributing](#contributing)
 11. [License](#license)
 12. [Hardware Used](#hardware-used)
+13. [Sources](#sources)
 
 ## Introduction
 
