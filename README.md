@@ -43,11 +43,11 @@ Feel free to connect with us on LinkedIn and mention any specific questions or i
 
 The introduction section should provide a brief overview of the main features, capabilities, and use cases of the package. Explain the purpose of the package and what it aims to achieve.
 
-Eflatun is a Python machine learning library that contains a comprehensive set of tools and algorithms for implementing and testing machine learning models. The package includes supervised and unsupervised learning algorithms such as linear regression, logistic regression, decision trees, random forests, and support vector machines (SVMs). It also includes clustering algorithms such as k-means and hierarchical clustering, and dimensionality reduction techniques such as principal component analysis (PCA) and independent component analysis (ICA).
+Eflatun is a package that contains a comprehensive set of tools and algorithms for implementing and testing machine learning models. This project is aimed at providing developers with a modular and extensible software framework for developing autonomous systems, such as robots, drones, and other intelligent machines. The package includes nodes that track and detect an object and select the best out of them. It also includes instructions for how to install and use the framework, as well as examples of how to develop various autonomous systems using the eflatun_src framework..
 
-The library is capable of data preprocessing, feature engineering, and model evaluation. It also supports parallel computing, which enables users to take advantage of multi-core CPUs for faster processing of large datasets.
+The package is capable of data preprocessing, feature engineering, and model evaluation. It also supports parallel computing, which enables users to take advantage of multi-core CPUs for faster processing of large datasets.
 
-The library can be used for a variety of domains such as finance, healthcare, marketing, and research purposes. Its features and capabilities make it a valuable tool for anyone interested in machine learning and data science. The use cases of Eflatun include predictive modeling, anomaly detection, image and speech recognition, natural language processing (NLP), and recommender systems.
+The package can be used for a variety of domains such as finance, healthcare, marketing, and research purposes. Its features and capabilities make it a valuable tool for anyone interested in machine learning and data science. The use cases of Eflatun include predictive modeling, anomaly detection, image and speech recognition, natural language processing (NLP), and recommender systems.
 
 ## Dependencies
 
